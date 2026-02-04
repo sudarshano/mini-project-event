@@ -214,7 +214,7 @@ void mostPopularEvent(){
         t = t->next;
     }
 
-    printf("\n🔥 Most Popular Event 🔥");
+    printf("\n Most Popular Event ");
     printf("\n%s (%d bookings)\n",best->name,best->popularity);
 }
 
@@ -248,3 +248,4 @@ int main(){
         }
     }
 }
+
